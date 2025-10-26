@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://images.icon-icons.com/1618/PNG/96/3700408-archive-document-education-exam-file-test_108771.png" type="image/x-icon">
+    <title>exércicio 6</title>
+    <style>
+        mark {
+            background-color: lime;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hoje vamos trabalhos com negrito e itálico corretamente-</h1> 
+    <hr>
+    <h2>Negrito/destaque</h2>
+    <p>Nessa frase temos uma palavra em <b>negrito</b> utilizando a tag &lt;b&gt; (Não semantico)</p>
+    <p>Nessa frase temos uma palavra em <strong>negrito</strong>utilizando a tag &lt;strong&gt; (semântic)</p>
+    <h2>Itálico/Enfase</h2>
+    <p>Nessa frase temos um termo em <i>itálico</i> usando a tag i(não semantica)</p>
+    <p>Nessa frase temos um termo em <em>ênfase</em> utilizando a tag &lt;EM&gt;</p>
+    <h2>Texto marcado</h2>
+    <p>Podemos criar tambem um <mark style="background-color: rgb(135, 255, 255)"> Texto marcado</mark> usando a tag &lt;mark&gt;</p>
+    <p>E no outro paragrafo temos outro <mark>texto marcado</mark> no final</p>
+    <h2>Texto grande e pequeno</h2>
+    <p>Estamos criando um <big>texto grande</big> e
+    <small>pequeno</small> neste paragrafo</p>
+    <h2>Texto deletado</h2>
+    <p>Podfemos marcar <del>um texto como excluído</del> para indicar que ele deve ser lido mas não considerado</p>
+    <h2>Texto inserido</h2>
+    <p>Podemos marcar um <ins>texto como inserido</ins> para dar uma ênfase e indicar que ele foi adicionado depois</p>
+    <p>Existe também o <u>texto sublinhado</u> com a tag &lt;u&gt; que é não semântica</p>
+    <h2>Texto sobrescrito</h2>
+    <p>Para inserir coisas do tipo x<SUP>2</SUP>+3 usamos a tag &lt;sup&gt;</p>
+    <h2>Texto subscrito</h2>
+    <p>Para inserir coisas do tipo H<sub>2</sub>O usamos a tag
+    &lt;sub&gt;</p>
+
+    <!--Outras formatações-->
+    <h1>Outras formatações/Pré-Formatação</h1>
+    <h2>Código fonte</h2>
+    <p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScript. Fonte monoespaçada</p>
+
+    <pre>
+        <code>
+        num = int(input("Digite um número"))
+        If num % 2 == 0
+                print(f'0 número {num} é PAR')
+        else:
+                print(f'0 número {num} é ÍMPAR')
+        print('Fim do programa')"
+        </code>
+    </pre>
+    <!--Code = Fonte monoespaçada
+Pre = Formatará o código com quebra de linhas, espaços e etc-->
+<h2>Citações simples</h2>
+<p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido</q></p>
+<h2>Citações completas</h2>
+<p>Segundo Elizabeth Castro no seu livro html for the www:</p>
+<blockquote cite="https://www.google.com.br/books/edition/HTML_for_the_World_Wide_Web/Dq9L3KkDOFIC?hl=pt-BR&gbpv=1">
+   Annotation The indispensable guide to the constantly evolving lingua franca of the Web. Task-based approach teaches readers how to combine HTML and CSS to create sharp, consistent Web pages regardless of monitor size, browser, platform, or viewing device. Comprehensive coverage of the transition from HTML to XHTML, including the differences between the languages. Packed with tips, techniques, and illustrations-all up20020926d to reflect newer browsers and the changing use of HTML. As both the Web itself and the browsers used to navigate it mature, work-arounds that compensate for the myriad factors that affect Web page appearances no longer cut it. Users expect Web pages to look beautiful regardless-and with the fifth edition of this popular Visual QuickStart Guide,readers can make thei...
+</blockquote>
+<!--blockquote = Quebra de linhas e deslocamento horizontal para a direita-->
+<h2>Abreviações</h2>
+<p>Estou estudando <abbr title="Hyper Text Markup Language">HTML</abbr> e<abbr title="Cascading Style Sheets"> CSS</abbr>. Estou adorando!</p>
+<h2>Texto invertido</h2>
+<p><bdo dir="rtl">Estou aprendendo a criar coisas em html</bdo></p>
+<!--Abbr = usado para atribuir significado a uma abreviação; BDO = usado para inverter a ordem de escrita das palavras-->
+
+</body>
+</html>
